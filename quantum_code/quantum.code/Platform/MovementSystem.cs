@@ -10,8 +10,11 @@
 
 		public override void Update(Frame f, ref Filter filter)
 		{
-			// gets the input for player 0
-			var input = *f.GetPlayerInput(0);
+			Input input = default;
+			if (f.Unsafe.TryGetPointer(filter.Entity, out PlayerLink* playerLink))
+			{
+				input = *f.GetPlayerInput(playerLink->Player);
+			}
 
 			if (input.Jump.WasPressed)
 			{

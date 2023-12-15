@@ -85,7 +85,8 @@ MonoBehaviour:
       MutableMode: 0
     MapEntities: []
   Prototypes:
-  - CharacterController2D: []
+  - PlayerLink: []
+    CharacterController2D: []
     CharacterController3D: []
     NavMeshAvoidanceAgent: []
     NavMeshAvoidanceObstacle: []
@@ -175,7 +176,8 @@ MonoBehaviour:
     View: []
     PhysicsJoints2D: []
     PhysicsJoints3D: []
-  - CharacterController2D: []
+  - PlayerLink: []
+    CharacterController2D: []
     CharacterController3D:
     - Config:
         Id:
@@ -231,11 +233,11 @@ MonoBehaviour:
     Transform3D:
     - Position:
         X:
-          RawValue: 131072
+          RawValue: -146145
         Y:
           RawValue: 131072
         Z:
-          RawValue: 101580
+          RawValue: 124518
       Rotation:
         X:
           RawValue: 0
