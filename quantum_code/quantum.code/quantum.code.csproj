@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Quantum</RootNamespace>
     <AssemblyName>quantum.code</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -78,6 +78,7 @@
     <Compile Include="Core\Core.cs" />
     <Compile Include="Frame.User.cs" />
     <Compile Include="FrameContext.User.cs" />
+    <Compile Include="Platform\MovementSystem.cs" />
     <Compile Include="RuntimeConfig.User.cs" />
     <Compile Include="RuntimePlayer.User.cs" />
     <Compile Include="SimulationConfig.User.cs" />
@@ -86,6 +87,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="db.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Platform\Input.qtn" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
