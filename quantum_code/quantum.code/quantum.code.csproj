@@ -90,6 +90,7 @@
     <EmbeddedResource Include="db.json" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Platform\PlayerJumpEvent.qtn" />
     <None Include="Platform\Input.qtn" />
     <None Include="Platform\PlayerLink.qtn" />
   </ItemGroup>

@@ -66,11 +66,11 @@ MonoBehaviour:
         RawValue: 0
       BoxExtents:
         X:
-          RawValue: 327680
+          RawValue: 3276800
         Y:
           RawValue: 32768
         Z:
-          RawValue: 327680
+          RawValue: 3276800
       SmoothSphereMeshCollisions: 0
       StaticData:
         Name: BoxStaticCollider
@@ -181,13 +181,35 @@ MonoBehaviour:
     CharacterController3D:
     - Config:
         Id:
-          Value: 4
+          Value: 1980519736023143808
     NavMeshAvoidanceAgent: []
     NavMeshAvoidanceObstacle: []
     NavMeshPathfinder: []
     NavMeshSteeringAgent: []
     PhysicsBody2D: []
-    PhysicsBody3D: []
+    PhysicsBody3D:
+    - Version: 2
+      Config:
+        Value: 58
+      Mass:
+        RawValue: 65536
+      Drag:
+        RawValue: 32768
+      AngularDrag:
+        RawValue: 32768
+      CenterOfMass:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      RotationFreeze:
+        Value: 0
+      GravityScale:
+        _hasValue: 0
+        _value:
+          RawValue: 65536
     PhysicsCollider2D: []
     PhysicsCollider3D:
     - ShapeConfig:

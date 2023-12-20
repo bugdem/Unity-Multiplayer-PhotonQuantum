@@ -56,6 +56,11 @@ MonoBehaviour:
         Id:
           Value: 1748447579470887347
       ResourcePath: DB/PlayerCharacter
+    - Path: Resources/DB/Configs/DefaultCharacterController3D Game
+      AssetRef:
+        Id:
+          Value: 1980519736023143808
+      ResourcePath: DB/Configs/DefaultCharacterController3D Game
     - Path: Resources/DB/PlayerCharacter|EntityView
       AssetRef:
         Id:

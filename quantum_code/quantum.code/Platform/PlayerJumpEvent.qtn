@@ -1,0 +1,4 @@
+﻿event PlayerJump
+{
+	entity_ref Entity;
+}
