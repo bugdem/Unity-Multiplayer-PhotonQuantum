@@ -37,7 +37,9 @@ namespace GameEngine.Core
 		{
 			var frame = game.Frames.Predicted;
 			var kcc = frame.Get<CharacterController3D>(_entityView.EntityRef);
-			_animator.SetFloat("Speed", kcc.Velocity.Magnitude.AsFloat);
+			Vector3 velocity = kcc.Velocity.ToUnityVector3();
+			velocity.y = 0f;
+			_animator.SetFloat("Speed", velocity.magnitude);
 
 			if (_waitingToGrounded && kcc.Grounded)
 			{

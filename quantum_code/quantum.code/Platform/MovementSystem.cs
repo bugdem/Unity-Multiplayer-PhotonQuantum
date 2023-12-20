@@ -31,7 +31,7 @@ namespace Quantum.Platform
 			if (velocity.Magnitude > FP.FromFloat_UNSAFE(0.01f))
 			{
 				Transform3D* pointer = ((FrameThreadSafe)f).GetPointer<Transform3D>(filter.Entity);
-				pointer->Rotation = FPQuaternion.LookRotation(velocity);
+				// pointer->Rotation = FPQuaternion.LookRotation(velocity);
 			}
 			
 		}
